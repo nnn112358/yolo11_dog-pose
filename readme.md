@@ -55,3 +55,4 @@
 ## 備考
 - データセット設定ファイル（`dog-pose.yaml`）は各自で作成・配置してください。
 - 詳細な使い方やカスタマイズは [Ultralytics YOLO公式ドキュメント](https://docs.ultralytics.com/) を参照してください。
+https://github.com/orgs/ultralytics/discussions/17946

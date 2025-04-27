@@ -12,12 +12,18 @@
 ## 必要な環境
 - Python 3.8以降
 - [Ultralytics YOLO](https://docs.ultralytics.com/) ライブラリ
+- ONNX推論・可視化用: onnxruntime, opencv-python, numpy
 
 ## セットアップ
 1. 必要なライブラリのインストール
-   ```bash
-   pip install ultralytics
-   ```
+   - トレーニング・ONNX変換用:
+     ```bash
+     pip install ultralytics
+     ```
+   - ONNX推論・可視化用:
+     ```bash
+     pip install onnxruntime opencv-python numpy
+     ```
 2. データセット設定ファイル（例: `dog-pose.yaml`）を用意してください。
 
 ## 使い方
@@ -55,4 +61,3 @@
 ## 備考
 - データセット設定ファイル（`dog-pose.yaml`）は各自で作成・配置してください。
 - 詳細な使い方やカスタマイズは [Ultralytics YOLO公式ドキュメント](https://docs.ultralytics.com/) を参照してください。
-https://github.com/orgs/ultralytics/discussions/17946
